@@ -1,0 +1,19 @@
+{
+  "_note": "RSS/Atom feeds read by scripts/feed_fetcher.py every 30 minutes. 'poland_only': true means an item is kept only if it mentions Poland or a Polish company/asset. Set 'enabled' to false to switch a feed off. Check data/feed_status.json after the first run to see which feeds respond.",
+  "feeds": [
+    {"name": "WysokieNapiecie.pl", "url": "https://wysokienapiecie.pl/feed/", "lang": "pl", "poland_only": false, "enabled": true},
+    {"name": "BiznesAlert",        "url": "https://biznesalert.pl/feed/",    "lang": "pl", "poland_only": false, "enabled": true},
+    {"name": "Gramwzielone.pl",    "url": "https://www.gramwzielone.pl/rss.xml", "lang": "pl", "poland_only": false, "enabled": true},
+    {"name": "Energetyka24",       "url": "https://energetyka24.com/rss",    "lang": "pl", "poland_only": false, "enabled": true},
+    {"name": "Polenergia",         "url": "https://www.polenergia.pl/en/feed/", "lang": "en", "poland_only": false, "enabled": true},
+    {"name": "Notes From Poland",  "url": "https://notesfrompoland.com/feed/", "lang": "en", "poland_only": false, "enabled": true},
+    {"name": "Baltic Wind",        "url": "https://balticwind.eu/feed/",      "lang": "en", "poland_only": true,  "enabled": true},
+    {"name": "CEEnergyNews",       "url": "https://ceenergynews.com/feed/",   "lang": "en", "poland_only": true,  "enabled": true},
+    {"name": "Poland Insight",     "url": "https://polandinsight.com/feed/",  "lang": "en", "poland_only": false, "enabled": true},
+    {"name": "ESS News",           "url": "https://www.ess-news.com/feed/",   "lang": "en", "poland_only": true,  "enabled": true},
+    {"name": "Energy-Storage.News","url": "https://www.energy-storage.news/feed/", "lang": "en", "poland_only": true, "enabled": true},
+    {"name": "pv magazine",        "url": "https://www.pv-magazine.com/feed/", "lang": "en", "poland_only": true,  "enabled": true},
+    {"name": "offshoreWIND.biz",   "url": "https://www.offshorewind.biz/feed/", "lang": "en", "poland_only": true, "enabled": true},
+    {"name": "World Nuclear News", "url": "https://www.world-nuclear-news.org/rss", "lang": "en", "poland_only": true, "enabled": true}
+  ]
+}
