@@ -1,41 +1,53 @@
-name: Update live feed
+name: Update live news feed
 
 on:
   schedule:
-    - cron: "*/30 * * * *"      # every 30 minutes (GitHub may start scheduled runs a few minutes late)
-  workflow_dispatch:             # adds a "Run workflow" button in the Actions tab
+    - cron: "*/30 * * * *"     # every 30 minutes
+  workflow_dispatch:            # "Run workflow" button
 
 permissions:
   contents: write
 
 concurrency:
-  group: data-update
+  group: update-feed
   cancel-in-progress: false
 
 jobs:
   update:
-    runs-on: ubuntu-latest
-    timeout-minutes: 15
+    runs-on: ubuntu-24.04       # pinned: avoids the Ubuntu 26 migration notice
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5          # Node 24 version (no deprecation warning)
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6      # Node 24 version
         with:
           python-version: "3.12"
 
-      - name: Fetch, filter and translate news
-        env:
-          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
-          AZURE_TRANSLATOR_KEY: ${{ secrets.AZURE_TRANSLATOR_KEY }}
-          AZURE_TRANSLATOR_REGION: ${{ secrets.AZURE_TRANSLATOR_REGION }}
+      - name: Check repository files
+        run: |
+          echo "Files in repo:"; ls -R . | grep -v '^\./\.git' | head -50
+          if [ ! -f scripts/feed_fetcher.py ]; then
+            echo "::error::scripts/feed_fetcher.py is missing. Upload it into a folder named 'scripts' at the repo root."
+            exit 1
+          fi
+          mkdir -p data
+          [ -f data/signals.json ] || echo '{"updated": null, "signals": []}' > data/signals.json
+
+      - name: Fetch live items
         run: python scripts/feed_fetcher.py
 
-      - name: Commit updated data
+      - name: Commit only if the feed changed
         run: |
           git config user.name  "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/signals.json data/feed_status.json
-          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
+          git add data/signals.json
+          if git diff --cached --quiet; then
+            echo "No new items - nothing to commit."
+            exit 0
+          fi
           git commit -m "Live feed update $(date -u +'%Y-%m-%d %H:%M UTC')"
-          git pull --rebase --autostash
-          git push
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+
+          git commit -m "Live feed update $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
