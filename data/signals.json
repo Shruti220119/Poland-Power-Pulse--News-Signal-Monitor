@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T15:04:50+00:00",
+ "updated": "2026-11-19T22:43:19+00:00",
  "signals": [
   {
    "id": "live-a491a33b70",
    "date": "2026-11-19",
-   "title": "Poland deepens regional gas cooperation Hungary, Czech Republic, Slovakia and Lithuania",
+   "title": "Poland deepens regional gas cooperation with Hungary, Czech Republic, Slovakia and Lithuania",
    "summary": "Poland has sought to position itself as a regional gas hub.",
    "links": [
     {
@@ -75,6 +75,25 @@
     "ALL"
    ],
    "publisher": "Baltic Wind",
+   "lang": "en",
+   "region": "National"
+  },
+  {
+   "id": "live-eef8c2ed03",
+   "date": "2026-11-19",
+   "title": "Bulgaria's NEK signs MoU for potential BWRX-300 projects",
+   "summary": "State-owned electricity company Natsionalna Elektricheska Kompania has signed a memorandum of understanding with Poland's SGE and Blue Bird Energy to cooperate on the deployment of BWRX-300 small modular reactors in Bulgaria.",
+   "links": [
+    {
+     "label": "World Nuclear News — article",
+     "url": "https://www.world-nuclear-news.org/articles/bulgarias-nek-signs-mou-for-potential-bwrx-300-projects",
+     "type": "press"
+    }
+   ],
+   "cos": [
+    "ALL"
+   ],
+   "publisher": "World Nuclear News",
    "lang": "en",
    "region": "National"
   },
