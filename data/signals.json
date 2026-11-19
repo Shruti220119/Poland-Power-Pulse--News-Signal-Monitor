@@ -1,6 +1,83 @@
 {
- "updated": "2026-11-19T05:34:46+00:00",
+ "updated": "2026-11-19T15:04:50+00:00",
  "signals": [
+  {
+   "id": "live-a491a33b70",
+   "date": "2026-11-19",
+   "title": "Poland deepens regional gas cooperation Hungary, Czech Republic, Slovakia and Lithuania",
+   "summary": "Poland has sought to position itself as a regional gas hub.",
+   "links": [
+    {
+     "label": "Notes From Poland — article",
+     "url": "https://notesfrompoland.com/2026/11/19/poland-deepens-regional-gas-cooperation-hungary-czech-republic-slovakia-and-lithuania/",
+     "type": "press"
+    }
+   ],
+   "cos": [
+    "ALL"
+   ],
+   "publisher": "Notes From Poland",
+   "lang": "en",
+   "region": "National"
+  },
+  {
+   "id": "live-faccb6ae4d",
+   "date": "2026-11-19",
+   "title": "EU Energy Commissioner Dan Jørgensen to visit Gdańsk’s T5 terminal and Baltic Power offshore wind farm",
+   "summary": "According to BalticWind.EU sources, Commissioner Dan Jørgensen will meet PGE at Gdańsk's T5 installation terminal on Friday and then fly out to view the Baltic Power offshore wind farm. The post EU Energy Commissioner Dan Jørgensen to visit Gdańsk’s T5 terminal and Baltic Power offshore wind farm appeared first on Baltic Wind .",
+   "links": [
+    {
+     "label": "Baltic Wind — article",
+     "url": "https://balticwind.eu/eu-energy-commissioner-dan-jorgensen-to-visit-gdansks-t5-terminal-and-baltic-power-offshore-wind-farm/",
+     "type": "press"
+    }
+   ],
+   "cos": [
+    "PGE"
+   ],
+   "publisher": "Baltic Wind",
+   "lang": "en",
+   "region": "National"
+  },
+  {
+   "id": "live-3b97623186",
+   "date": "2026-11-19",
+   "title": "Searenergy Poland to handle hook-up and commissioning at Bałtyk 2 and Bałtyk 3 offshore wind farms",
+   "summary": "Gdynia-based Searenergy Poland will carry out hook-up and commissioning of the offshore substations at Equinor and Polenergia's 1,440 MW Bałtyk 2 and Bałtyk 3 projects. The post Searenergy Poland to handle hook-up and commissioning at Bałtyk 2 and Bałtyk 3 offshore wind farms appeared first on Baltic Wind .",
+   "links": [
+    {
+     "label": "Baltic Wind — article",
+     "url": "https://balticwind.eu/searenergy-poland-to-handle-hook-up-and-commissioning-at-baltyk-2-and-baltyk-3-offshore-wind-farms/",
+     "type": "press"
+    }
+   ],
+   "cos": [
+    "POLENERGIA",
+    "EQUINOR"
+   ],
+   "publisher": "Baltic Wind",
+   "lang": "en",
+   "region": "National"
+  },
+  {
+   "id": "live-ba4d7a004f",
+   "date": "2026-11-19",
+   "title": "Windar Polska to build 26 turbine towers in Poland for Ocean Winds’ BC-Wind offshore wind farm",
+   "summary": "Windar Polska will manufacture 26 complete steel towers in Poland for the SG 15-236 turbines at Ocean Winds' BC-Wind project, under an order from Siemens Gamesa. The post Windar Polska to build 26 turbine towers in Poland for Ocean Winds’ BC-Wind offshore wind farm appeared first on Baltic Wind .",
+   "links": [
+    {
+     "label": "Baltic Wind — article",
+     "url": "https://balticwind.eu/windar-polska-to-build-26-turbine-towers-in-poland-for-ocean-winds-bc-wind-offshore-wind-farm/",
+     "type": "press"
+    }
+   ],
+   "cos": [
+    "ALL"
+   ],
+   "publisher": "Baltic Wind",
+   "lang": "en",
+   "region": "National"
+  },
   {
    "id": "live-22663b3217",
    "date": "2026-11-18",
