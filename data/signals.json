@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T12:26:06+00:00",
+ "updated": "2026-11-20T20:38:00+00:00",
  "signals": [
   {
    "id": "live-b7d87a5201",
@@ -17,6 +17,25 @@
     "ALL"
    ],
    "publisher": "ESS News",
+   "lang": "en",
+   "region": "National"
+  },
+  {
+   "id": "live-54672c9910",
+   "date": "2026-11-20",
+   "title": "Partners prepare to procure next batch of equipment for Polish plant",
+   "summary": "Polskie Elektrownie Jądrowe has signed a letter of intent with the Westinghouse-Bechtel consortium concerning the extension of the scope of the Engineering Development Agreement to cover activities related to the procurement of long lead items for the initial unit of Poland's planned first nuclear power plant.",
+   "links": [
+    {
+     "label": "World Nuclear News — article",
+     "url": "https://www.world-nuclear-news.org/articles/partners-prepare-to-procure-next-batch-of-equipment-for-polish-plant",
+     "type": "press"
+    }
+   ],
+   "cos": [
+    "PEJ"
+   ],
+   "publisher": "World Nuclear News",
    "lang": "en",
    "region": "National"
   },
