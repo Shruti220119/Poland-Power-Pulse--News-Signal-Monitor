@@ -1,6 +1,25 @@
 {
- "updated": "2026-11-27T08:54:29+00:00",
+ "updated": "2026-11-27T18:38:59+00:00",
  "signals": [
+  {
+   "id": "live-87699fe40f",
+   "date": "2026-11-27",
+   "title": "Warsaw grid operator adds distributed batteries to curb rooftop solar voltage spikes",
+   "summary": "Stoen Operator has contracted a Polish manufacturer to deploy 10 substation-level battery systems across the Polish capital, testing storage as a targeted alternative to conventional grid upgrades. The post Warsaw grid operator adds distributed batteries to curb rooftop solar voltage spikes appeared first on Energy Storage .",
+   "links": [
+    {
+     "label": "ESS News — article",
+     "url": "https://www.ess-news.com/2026/11/27/warsaw-grid-operator-adds-distributed-batteries-to-curb-rooftop-solar-voltage-spikes/",
+     "type": "press"
+    }
+   ],
+   "cos": [
+    "ALL"
+   ],
+   "publisher": "ESS News",
+   "lang": "en",
+   "region": "National"
+  },
   {
    "id": "live-0f06800aca",
    "date": "2026-11-26",
