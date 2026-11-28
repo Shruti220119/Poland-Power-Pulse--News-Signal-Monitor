@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T18:38:59+00:00",
+ "updated": "2026-11-28T01:45:45+00:00",
  "signals": [
   {
    "id": "live-87699fe40f",
@@ -17,6 +17,25 @@
     "ALL"
    ],
    "publisher": "ESS News",
+   "lang": "en",
+   "region": "National"
+  },
+  {
+   "id": "live-8828651725",
+   "date": "2026-11-27",
+   "title": "Poland signs $300m deal with Palantir for AI-powered battlefield software platform",
+   "summary": "The system will help Poland \"build a modern army, ready for the challenges of the future\", says the defence minister.",
+   "links": [
+    {
+     "label": "Notes From Poland — article",
+     "url": "https://notesfrompoland.com/2026/11/27/poland-signs-300m-deal-with-palantir-for-ai-powered-battlefield-software-platform/",
+     "type": "press"
+    }
+   ],
+   "cos": [
+    "ALL"
+   ],
+   "publisher": "Notes From Poland",
    "lang": "en",
    "region": "National"
   },
